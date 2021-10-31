@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey form</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>    
+    <main>
+        <h1 id="title">FreeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+        <div id="formContainer">
+            <form action="" id="survey-form">
+
+                <label for="name" id="name-label">Name</label>
+                <input type="text" required id="name" placeholder="Enter name here">
+
+                <label for="email" id="email-label">Email</label>
+                <input type="email" required id="email" placeholder="Enter email address here">
+                
+                <label for="number" id="number-label">Age</label>
+                <input type="number" required id="number" min="1" max="150" placeholder="age">
+
+                <label for="dropdown">Gender</label>
+                <select name="gender" id="dropdown">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>              
+                
+                
+                <input type="radio" class="radioButtons" name="favoriteLanguage" id="html" value="HTML">
+                <label for="html" class="radioButtonLabels">HTML</label>
+                
+                <input type="radio" class="radioButtons" name="favoriteLanguage" id="css" value="CSS">
+                <label for="css" class="radioButtonLabels">CSS</label>
+                
+                <input type="radio" class="radioButtons" name="favoriteLanguage" id="javaScript" value="javaScript">
+                <label for="javaScript" class="radioButtonLabels">javaScript</label>
+                
+                
+                <input type="checkbox" value="male">
+                <input type="checkbox" value="female">
+
+                <textarea name="comments" id="textArea" cols="30" rows="10" placeholder="comments"></textarea>
+
+                <button id="submit">submit</button>
+
+
+
+            </form>
+        </div>
+    
+    </main>
+    
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>   
+</body>
+</html>

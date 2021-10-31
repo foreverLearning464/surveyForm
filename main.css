@@ -1,0 +1,102 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    background-attachment: fixed;  
+    background-color: rgba(96, 36, 238, 0.5);
+    height: fit-content;
+    width: 100%;
+    margin-left: -5px;
+    margin-top: -22px; 
+}
+
+#title {
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#description {
+    color: white;
+    text-align: center;
+    
+}
+
+#formContainer {
+    color: white;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(21, 21, 58, 0.8);
+    
+    
+}
+
+label {
+    margin: 8%;
+}
+
+#name {
+    display: block;;
+    width: 80%;
+    margin: 40px;
+    padding: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+#email {
+    display: block;;
+    width: 80%;
+    padding: 15px;
+    margin: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#number {
+    display: block;;
+    width: 80%;
+    padding: 15px;
+    margin: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#dropdown {
+    display: block;;
+    width: 85%;
+    padding: 15px;
+    margin: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#textArea {
+    margin-top: 40px;
+    display: block;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#submit {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding: 15px;
+}
